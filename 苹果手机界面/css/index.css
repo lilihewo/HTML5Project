@@ -1,0 +1,68 @@
+body {
+	margin: 0px;
+}
+
+/* 内容 */
+.content {
+	height: 100%;
+	background-color: gray;
+}
+
+/* 苹果手机 div */
+.content .phone {
+	text-align: center;
+	/* background-color: pink; */
+}
+.content .phone img {
+	margin-top: 100px;
+}
+
+/* home div */
+.content .home {
+	position: absolute;
+	left: 0; right: 0;
+	margin: auto;
+	top: 100px;
+	width: 716px;
+	height: 368px;
+	/* background-color: yellow; */
+}
+/* home键 */
+.content .home img {
+	cursor: pointer; /* 手型鼠标 */
+	margin-top: 148px;
+	margin-left: 29px;
+	transition: all 0.2s;
+	/* background-color: blue; */
+}
+
+/* home键 */
+.content .home img:hover {
+	transform: scale(1.1);
+}
+
+
+/* 屏幕 div */
+.content .screen {
+	position: absolute;
+	left: 0; right: 0;
+	margin: auto;
+	top: 100px;
+	width: 716px;
+	height: 368px;
+	
+	text-align: center;
+	/* background-color: pink; */
+}
+/* 屏幕背景图片 */
+.content .screen img {
+	margin-top: 23px;
+}
+
+
+
+
+
+
+
+
